@@ -19,5 +19,6 @@ steps:
     npm install -g @angular/cli
     cd azure
     npm install
+    npm test
     ng build --prod
   displayName: 'npm install and build'
